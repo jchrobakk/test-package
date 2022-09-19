@@ -4,7 +4,8 @@
   "description": "Test package",
   "main": "/dist/main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "gulp"
   },
   "author": "jchrobakk",
   "license": "ISC",
@@ -12,5 +13,12 @@
     "gulp": "^4.0.2",
     "gulp-typescript": "^6.0.0-alpha.1",
     "typescript": "^4.8.3"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jchrobakk/test-package.git"
+  },
+  "files": [
+    "dist/*"
+  ]
 }
