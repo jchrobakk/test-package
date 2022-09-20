@@ -1,5 +1,5 @@
 {
-  "name": "test-package",
+  "name": "@jchrobakk/test-package",
   "version": "0.0.0-development",
   "description": "Test package",
   "main": "/dist/main.js",
